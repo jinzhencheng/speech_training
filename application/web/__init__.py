@@ -3,6 +3,6 @@
 
 from flask import Blueprint
 
-web = Blueprint("web", __name__, template_folder="templates/web")
+web_blueprint = Blueprint("web", __name__, template_folder="templates/web")
 
 

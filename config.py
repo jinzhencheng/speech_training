@@ -12,7 +12,7 @@ class MySQLConfig():
     URI = None
     USERNAME = "root"
     PASSWORD = "root"
-    DEFAULT_POOL_MAX_SIZE = 10
+    DEFAULT_POOL_MAX_SIZE = 100
 
     @staticmethod
     def create_db_uri(db_name, username=USERNAME, password=PASSWORD, host=HOST, port=PORT):
